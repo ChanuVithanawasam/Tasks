@@ -1,0 +1,36 @@
+#navigateBar {
+    -fx-background-color: #cabbac;
+}
+
+#bgColor {
+    -fx-background-color: #d2c1e2;
+}
+
+#test {
+    -fx-fill: #d2c1e2;
+    -fx-font-family: "Bodoni MT", sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-background-radius: 15px;
+}
+
+#btnSave {
+    -fx-background-color: #60e62c;
+    -fx-fill: #ecf0f1;
+    -fx-font-family: "Bodoni MT Black", sans-serif;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-background-radius: 10;
+}
+
+#btnLogin{
+    -fx-background-color: #610e66;
+    -fx-fill:#ecf0f1 ;
+    -fx-background-radius: 15px;
+}
+
+#btnSign{
+    -fx-background-color: #60e62c;
+    -fx-fill:#ecf0f1 ;
+    -fx-background-radius: 15px;
+}

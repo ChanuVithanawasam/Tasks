@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="520.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.live_chat_application.controller.ServerFormController">
+   <children>
+      <ScrollPane layoutX="61.0" layoutY="92.0" prefHeight="420.0" prefWidth="390.0">
+         <content>
+            <VBox fx:id="vBox" prefHeight="422.0" prefWidth="390.0" />
+         </content>
+      </ScrollPane>
+      <Text layoutX="201.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Server" wrappingWidth="71.017578125" />
+      <ImageView fitHeight="70.0" fitWidth="67.0" layoutX="410.0" layoutY="13.0">
+         <image>
+            <Image url="@assests/images/pngwing.com.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
